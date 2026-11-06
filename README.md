@@ -10,6 +10,10 @@ https://raw.githubusercontent.com/hdbp/superadblocktest-adguard-home/main/blockl
 
 In AdGuard Home, open **Filters → DNS blocklists → Add blocklist → Add a custom list** and paste the URL above.
 
+## Browser-only test rules
+
+The [browser-filters.txt](browser-filters.txt) file contains the cosmetic and URL-path rules shown by adblock.turtlecute.org. Add these to a compatible browser content blocker's custom rules if you want to run those checks. They cannot work in AdGuard Home's DNS blocklists.
+
 ## Scope and limitations
 
 - The source script was read on 2026-11-06: [adblock.js](https://superadblocktest.com/adblock.js?v=20260810-direct-run-1).
